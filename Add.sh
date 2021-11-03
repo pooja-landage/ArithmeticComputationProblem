@@ -13,4 +13,11 @@ cal=$(( $a * $b + $c))
 
 echo "Cal is: $cal"
 
+sol=$(( $c + $a / $b))
+
+echo "Solution is: $sol"
+
+sol1=$(( $a % $b + $c))
+
+echo "Solution is: $sol1"
 
