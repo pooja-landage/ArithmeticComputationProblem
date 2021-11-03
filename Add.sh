@@ -9,3 +9,8 @@ sum=$(( $a + $b + $c))
  
 echo "Sum is: $sum"
 
+cal=$(( $a * $b + $c))
+
+echo "Cal is: $cal"
+
+
